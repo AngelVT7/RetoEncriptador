@@ -90,3 +90,34 @@ textarea{
     color: #fff;
     
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .cabecera{
+        width: 100%;
+        margin: 2em 0;
+    }
+    .caja h1{
+        font-size: 25px;
+    }
+    #alura{
+        margin: 2% 2%;
+    }
+    #oracle{
+        margin: 8% 50%;
+    }
+    .contenedor-principal{
+        width: 100%;
+    }
+    .bloque{
+        display: inline;
+    }
+    #texto{
+        margin: 1em 2%;
+    }
+    #muneco{
+        display: none;
+    }
+    .botones{
+        margin: -20em -17%;
+    }
+}
